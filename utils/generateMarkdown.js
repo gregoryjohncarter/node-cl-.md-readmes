@@ -66,7 +66,7 @@ function testsString(data) {
 
 function screenshotString(data) {
   if (data.confirmUsage === true) {
-    return `<img src='${data.screenshot}'></img> <br>
+    return `<img src='${data.screenshot}' height='300px' width='300px'></img> <br>
     <br>`;
   } else {
     return '';
@@ -88,7 +88,7 @@ module.exports = data => {
   * [Questions](#questions)
  
   ## Installation
-  * ${data.installation.replace(/,/g, '<br>*')}
+  X ${data.installation.replace(/,/g, '<br>X')}
   
   ## Usage
   ${data.usage}
@@ -96,7 +96,7 @@ module.exports = data => {
   ${contributingString(data)}
   ${testsString(data)}
   ${renderLicenseSection(data)}
-  ## Questions
-  GitHub username: ${data.github}
+  ## Questions <br>
+  GitHub username: ${data.github} <br> 
   Email me with any other questions: ${data.email}<br>`;
 }

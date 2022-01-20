@@ -3,7 +3,7 @@
   ## Description  
   Lernantino  
   
-  [GitHub Link](Lernantino.https) 
+  [GitHub Link](Lernantino) 
 
   ## Table of Contents
   * [Installation](#installation)
@@ -12,11 +12,11 @@
   * [Questions](#questions)
  
   ## Installation
-  - Lernantino<br>- Lernantino
+  X Lernantino<br>X Lernantino<br>X Lernantino
   
   ## Usage
-  Lernantino
-  <img src='../src/screenshot.png'></img> <br>
+  Lernantino's usage
+  <img src='../src/screenshot.png' height='300px' width='300px'></img> <br>
     <br>
   
   
@@ -26,6 +26,6 @@
   <br>
   [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/)<br>
   
-  ## Questions
-  GitHub username: n
-  Email me with any other questions: n<br>
+  ## Questions <br>
+  GitHub username: G <br> 
+  Email me with any other questions: N<br>
