@@ -12,7 +12,7 @@
   * [Questions](#questions)
  
   ## Installation
-  X Install<br>X Install<br>X Install 
+  X Lernantino<br>X Lernantino<br>X Lernantino
   
   ## Usage
   Usage with lernantino <br>
@@ -22,22 +22,14 @@
     Contribute! <br>
     <br>
   ### Tests info 
-    Testing <br>
+    Details! <br>
     <br>
   ## License 
   <br>
   Apache 2.0: A permissive license whose main conditions require preservation of copyright and license notices. Contributors provide an express grant of patent rights. Licensed works, modifications, and larger works may be distributed under different terms and without source code.<br>
   <br>
-<<<<<<< HEAD
   https://choosealicense.com/licenses/apache-2.0/<br>
   
   ## Questions <br>
   GitHub username: Lernantino <br> 
   Email me with any other questions: Lernantino@gmail.com<br>
-=======
-  [Apache 2.0](http://choosealicense.com/licenses/apache-2.0)<br>
-  
-  ## Questions <br>
-  GitHub username: G <br> 
-  Email me with any other questions: N<br>
->>>>>>> 9194d46572641754457da708ace59d333ba2c71d
