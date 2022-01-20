@@ -93,7 +93,7 @@ module.exports = data => {
   ${contributingString(data)}
   ${testsString(data)}
   ${renderLicenseSection(data)}
-  ## Questions <br>
-  GitHub username: ${data.github} <br> 
+  ## Questions
+  <br>GitHub username: ${data.github} <br> 
   Email me with any other questions: ${data.email}<br>`;
 }
