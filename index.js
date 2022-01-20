@@ -77,7 +77,7 @@ const questions = [
     {
         type: 'input',
         name: 'screenshot',
-        message: 'Place the screenshot in the src folder of the repo and type the relative filepath (./src/<filename>)',
+        message: 'Enter the relevant filepath for your screenshot as it pertains to the repo with which this readme will be used with, or use the src folder for testing within this repo (../src/<filename>)',
         when: ({ confirmUsage }) => confirmUsage,
         validate: screenshotInput => {
           if (screenshotInput) {

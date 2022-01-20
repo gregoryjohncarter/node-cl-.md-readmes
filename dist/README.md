@@ -12,18 +12,15 @@
   * [Questions](#questions)
  
   ## Installation
-  X Lernantino<br>X Lernantino<br>X Lernantino
+  X Lernantino<br>X Lernantino
   
   ## Usage
   Lernantino <br>
   <br>
-  <img src='../src/screenshot.png' height='389px' width='500px'></img> <br>
+  
+  ### Contributing info: Contribute<br>
     <br>
-  ### Contributing info <br> 
-    Contribute! <br>
-    <br>
-  ### Tests info <br>
-    Tests! <br>
+  ### Tests info: Test!<br>
     <br>
   ## License 
   <br>
@@ -32,5 +29,5 @@
   https://choosealicense.com/licenses/apache-2.0/<br>
   
   ## Questions <br>
-  GitHub username: G <br> 
-  Email me with any other questions: G<br>
+  GitHub username: n <br> 
+  Email me with any other questions: n<br>
