@@ -46,8 +46,7 @@ function renderLicenseSection(data) {
 
 function contributingString(data) {
   if (data.confirmContributing === true) {
-    return `### Contributing info: ${data.contributing}<br>
-<br>`;
+    return `### Contributing info: ${data.contributing}<br>  `;
   } else {
     return '';
   }
@@ -55,8 +54,7 @@ function contributingString(data) {
 
 function testsString(data) {
   if (data.tests.length > 0) {
-    return `### Tests info: ${data.tests}<br>
-<br>`; 
+    return `### Tests info: ${data.tests}<br>  `; 
   } else {
     return '';
   }
