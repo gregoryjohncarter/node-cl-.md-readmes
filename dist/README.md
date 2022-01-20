@@ -15,14 +15,15 @@
   X Lernantino<br>X Lernantino<br>X Lernantino
   
   ## Usage
-  Usage with lernantino <br>
+  Lernantino <br>
+  <br>
   <img src='../src/screenshot.png' height='389px' width='500px'></img> <br>
     <br>
-  ### Contributing info  
+  ### Contributing info <br> 
     Contribute! <br>
     <br>
-  ### Tests info 
-    Details! <br>
+  ### Tests info <br>
+    Tests! <br>
     <br>
   ## License 
   <br>
@@ -31,5 +32,5 @@
   https://choosealicense.com/licenses/apache-2.0/<br>
   
   ## Questions <br>
-  GitHub username: Lernantino <br> 
-  Email me with any other questions: Lernantino@gmail.com<br>
+  GitHub username: G <br> 
+  Email me with any other questions: G<br>

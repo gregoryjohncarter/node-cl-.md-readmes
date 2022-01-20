@@ -46,7 +46,7 @@ function renderLicenseSection(data) {
 
 function contributingString(data) {
   if (data.confirmContributing === true) {
-    return `### Contributing info  
+    return `### Contributing info <br> 
     ${data.contributing} <br>
     <br>`;
   } else {
@@ -56,7 +56,7 @@ function contributingString(data) {
 
 function testsString(data) {
   if (data.tests.length > 0) {
-    return `### Tests info 
+    return `### Tests info <br>
     ${data.tests} <br>
     <br>`; 
   } else {
@@ -92,6 +92,7 @@ module.exports = data => {
   
   ## Usage
   ${data.usage} <br>
+  <br>
   ${screenshotString(data)}
   ${contributingString(data)}
   ${testsString(data)}
