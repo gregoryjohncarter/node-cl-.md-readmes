@@ -8,3 +8,5 @@
 ### Dependencies:
 - install Inquirer.js (enter 'npm i inquirer --save' in the root folder of the directory)
 
+Link to demonstration video: https://drive.google.com/file/d/1epimt5E_oEFIxne23odsITas4gn3mTA7/view?usp=sharing
+
