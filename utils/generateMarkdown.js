@@ -46,7 +46,7 @@ function renderLicenseSection(data) {
 
 function contributingString(data) {
   if (data.confirmContributing === true) {
-    return `### Contributing info:  
+    return `### Contributing info  
     ${data.contributing} <br>
     <br>`;
   } else {
@@ -56,7 +56,7 @@ function contributingString(data) {
 
 function testsString(data) {
   if (data.tests.length > 0) {
-    return `### Tests info:  
+    return `### Tests info 
     ${data.tests} <br>
     <br>`; 
   } else {
@@ -88,7 +88,7 @@ module.exports = data => {
   * [Questions](#questions)
  
   ## Installation
-  - ${data.installation.replace(/,/g, '<br>-')}
+  * ${data.installation.replace(/,/g, '<br>*')}
   
   ## Usage
   ${data.usage}

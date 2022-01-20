@@ -3,7 +3,7 @@
   ## Description  
   Lernantino  
   
-  [GitHub Link](Lernanntino) 
+  [GitHub Link](Lernantino.https) 
 
   ## Table of Contents
   * [Installation](#installation)
@@ -12,18 +12,14 @@
   * [Questions](#questions)
  
   ## Installation
-  -Lernantino<br>- Lernanitno
+  - Lernantino<br>- Lernantino
   
   ## Usage
   Lernantino
-  <img src='./src/screenshot.png'></img> <br>
+  <img src='../src/screenshot.png'></img> <br>
     <br>
-  ### Contributing info:  
-    contribute! <br>
-    <br>
-  ### Tests info:  
-    tests! <br>
-    <br>
+  
+  
   ## License 
   <br>
   Apache: A permissive license whose main conditions require preservation of copyright and license notices. Contributors provide an express grant of patent rights. Licensed works, modifications, and larger works may be distributed under different terms and without source code.<br>
@@ -31,5 +27,5 @@
   [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/)<br>
   
   ## Questions
-  GitHub username: Github
-  Email me with any other questions: Useremail<br>
+  GitHub username: n
+  Email me with any other questions: n<br>
