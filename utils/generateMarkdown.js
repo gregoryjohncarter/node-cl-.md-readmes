@@ -36,7 +36,7 @@ function renderLicenseLink(data) {
 }
 
 function renderLicenseSection(data) {
-  return `## License <br>
+  return `## License 
   <br>
   ${renderLicenseBadge(data)}
   <br>
@@ -46,7 +46,8 @@ function renderLicenseSection(data) {
 
 function contributingString(data) {
   if (data.confirmContributing === true) {
-    return `### Contributing info: ${data.contributing} <br>
+    return `### Contributing info:  
+    ${data.contributing} <br>
     <br>`;
   } else {
     return '';
@@ -55,42 +56,47 @@ function contributingString(data) {
 
 function testsString(data) {
   if (data.tests.length > 0) {
-    return `### Tests info: ${data.tests} <br>
+    return `### Tests info:  
+    ${data.tests} <br>
     <br>`; 
   } else {
     return '';
   }
 }
 
+function screenshotString(data) {
+  if (data.confirmUsage === true) {
+    return `<img src='${data.screenshot}'></img> <br>
+    <br>`;
+  } else {
+    return '';
+  }
+}
+
 module.exports = data => { 
-  return `# ${data.name} <br>
-  <br>
-  ## Description <br>
-  ${data.description} <br>
-  <br>
-  [GitHub Link](${data.link}) <br>
-  <br>
-  ## Table of Contents <br>
-  * [Installation](#installation) <br>
-  * [Usage](#usage) <br>
-  * [License](#license) <br>
-  * [Questions](#questions)<br>
-  <br>
-  ## Installation <br>
-  ${data.installation.replace(/,/g, '<br>- ')}<br>
-  <br>
-  ## Usage <br>
-  ${data.usage}<br>
-  <br>
-  <img src='${data.screenshot}'></img> <br>
-  <br>
+  return `# ${data.name}  
+
+  ## Description  
+  ${data.description}  
+  
+  [GitHub Link](${data.link}) 
+
+  ## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Questions](#questions)
+ 
+  ## Installation
+  - ${data.installation.replace(/,/g, '<br>-')}
+  
+  ## Usage
+  ${data.usage}
+  ${screenshotString(data)}
   ${contributingString(data)}
   ${testsString(data)}
   ${renderLicenseSection(data)}
-  ## Questions <br>
-  <br>
-  GitHub username: ${data.github}<br>
-  <br>
-  Email me with any other questions: ${data.email}<br>
-`;
+  ## Questions
+  GitHub username: ${data.github}
+  Email me with any other questions: ${data.email}<br>`;
 }

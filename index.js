@@ -160,7 +160,7 @@ const promptUser = (questions) => {
 // function writeToFile(fileName, data) {
     const writeFile = fileContent => {
         return new Promise((resolve, reject) => {
-          fs.writeFile('./dist/README.md', JSON.stringify(fileContent).replace('"', '').replace(/\\n/g, ''), err => {
+          fs.writeFile('./dist/README.md', fileContent.replace('"', ''), err => {
             // if there's an error, reject the Promise and send the error to the Promise's `.catch()` method
             if (err) {
               reject(err);
