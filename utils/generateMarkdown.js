@@ -62,7 +62,7 @@ function testsString(data) {
   }
 }
 
-function generateMarkdown(data) {
+module.exports = data => { 
   return `# ${data.name} <br>
   <br>
   ## Description <br>
@@ -94,5 +94,3 @@ function generateMarkdown(data) {
   Email me with any other questions: ${data.email}<br>
 `;
 }
-
-module.exports = { generateMarkdown };

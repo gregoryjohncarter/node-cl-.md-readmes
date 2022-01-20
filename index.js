@@ -149,13 +149,18 @@ const questions = [
 ]
 
 const promptUser = (questions) => {
+  console.log(`
+  =================
+  Generate a readme
+  =================
+  `);
     return inquirer.prompt(questions); 
   }
 
 // function writeToFile(fileName, data) {
     const writeFile = fileContent => {
         return new Promise((resolve, reject) => {
-          fs.writeFile('./dist/README.md', fileContent, err => {
+          fs.writeFile('./dist/README.md', JSON.stringify(fileContent, null, '\t'), err => {
             // if there's an error, reject the Promise and send the error to the Promise's `.catch()` method
             if (err) {
               reject(err);
@@ -173,13 +178,8 @@ const promptUser = (questions) => {
 // }
 
 // TODO: Create a function to initialize app
-function init() {}
-
-// Function call to initialize app
-init();
-
-init()
-  .then(promptUser)
+function init() {
+  promptUser(questions)
   .then(promptData => {
     return generateMarkdown(promptData);
   })
@@ -192,3 +192,8 @@ init()
   .catch(err => {
     console.log(err);
   });
+}
+
+// Function call to initialize app
+init()
+  
